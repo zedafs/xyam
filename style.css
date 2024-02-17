@@ -32,59 +32,7 @@ header {
     margin: 10px 0;
 }
 
-.contact-switch {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-}
 
-.switch {
-    display: flex;
-    align-items: center;
-    margin: 0 10px;
-    cursor: pointer;
-}
-
-.switch input {
-    display: none;
-}
-
-.switch label {
-    display: flex;
-    align-items: center;
-    margin: 0 10px;
-    cursor: pointer;
-}
-
-.switch input {
-    display: none;
-}
-
-
-.slider {
-    position: relative;
-    cursor: pointer;
-    width: 30px;
-    height: 15px;
-    background-color: #444;
-    border-radius: 15px;
-}
-
-.slider:before {
-    content: "";
-    position: absolute;
-    height: 20px;
-    width: 20px;
-    left: 0;
-    bottom: -2.5px;
-    background-color: #777;
-    border-radius: 50%;
-    transition: 0.4s;
-}
-
-.switch input:checked + .slider:before {
-    transform: translateX(15px);
-}
 
 .btn {
     display: inline-block;
